@@ -1,0 +1,24 @@
+{
+  "dataset": "HD10K_IROS2022/IROS2022_Dataset/train/liquid_dirts",
+  "samples": 4000,
+  "train": 3600,
+  "validation": 400,
+  "split_seed": 0,
+  "model_seed": 42,
+  "epochs": 30,
+  "batch_size": 1,
+  "scale": 0.5,
+  "input_resolution": [
+    320,
+    240
+  ],
+  "classes": 2,
+  "optimizer": "AdamW",
+  "learning_rate": 0.0001,
+  "weight_decay": 1e-08,
+  "amp": false,
+  "num_workers": 0,
+  "scheduler": "ReduceLROnPlateau(max, patience=5), once per epoch",
+  "loss": "CrossEntropyLoss + multiclass Dice loss",
+  "gpu": "NVIDIA GeForce RTX 3070 8GB"
+}

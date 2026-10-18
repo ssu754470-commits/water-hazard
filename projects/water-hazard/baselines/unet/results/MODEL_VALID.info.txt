@@ -1,0 +1,4 @@
+Valid HD10K liquid segmentation model
+Epoch: 30/30
+Source: C:\program1\Pytorch-UNet-master\Pytorch-UNet-master\checkpoints_hd10k_fixed_20261014\checkpoint_epoch30.pth
+All model tensors finite; real-image inference finite.

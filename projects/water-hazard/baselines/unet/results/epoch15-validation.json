@@ -1,0 +1,15 @@
+{
+  "model": "C:\\program1\\Pytorch-UNet-master\\Pytorch-UNet-master\\MODEL_VALID.pth",
+  "epoch": 15,
+  "split": "400 held-out training frames; random seed 0",
+  "samples": 400,
+  "positive_samples": 200,
+  "empty_samples": 200,
+  "mean_dice": 0.6121446329734103,
+  "positive_mean_dice": 0.25428925759894305,
+  "positive_mean_iou": 0.20611444004586008,
+  "micro_dice": 0.36881873004611565,
+  "foreground_precision": 0.9858714204437702,
+  "foreground_recall": 0.22684033686782737,
+  "empty_false_positive_samples": 6
+}

@@ -1,0 +1,223 @@
+2026-10-14 08:48:29,060 INFO: Using device cuda; AdamW; full precision; finite-value checks enabled
+2026-10-14 08:48:29,363 INFO: HD10K liquid segmentation: 4000 image/mask pairs
+wandb: WARNING The anonymous setting has no effect and will be removed in a future version.
+2026-10-14 08:48:29,877 INFO: Starting training:
+        Epochs:          30
+        Batch size:      1
+        Learning rate:   0.0001
+        Training size:   3600
+        Validation size: 400
+        Checkpoints:     True
+        Device:          cuda
+        Images scaling:  0.5
+        Mixed Precision: False
+                                                                      2026-10-14 08:50:05,092 INFO: Validation Dice score: 0.5013803839683533
+                                                                      2026-10-14 08:51:41,163 INFO: Validation Dice score: 0.5727964043617249
+                                                                      2026-10-14 08:53:28,087 INFO: Validation Dice score: 0.2086748331785202
+                                                                      2026-10-14 08:54:59,044 INFO: Validation Dice score: 0.5095833539962769
+                                                                      2026-10-14 08:56:29,616 INFO: Validation Dice score: 0.21060936152935028
+2026-10-14 08:56:29,629 INFO: Epoch 1/30 mean loss: 0.052907; learning rate: 0.0001
+2026-10-14 08:56:31,035 INFO: Checkpoint 1 saved!
+                                                                      2026-10-14 08:58:01,814 INFO: Validation Dice score: 0.2767627537250519
+                                                                      2026-10-14 08:59:32,464 INFO: Validation Dice score: 0.508999764919281
+                                                                      2026-10-14 09:01:03,207 INFO: Validation Dice score: 0.2773292660713196
+                                                                      2026-10-14 09:02:33,580 INFO: Validation Dice score: 0.3774031102657318
+                                                                      2026-10-14 09:04:04,118 INFO: Validation Dice score: 0.30669674277305603
+2026-10-14 09:04:04,123 INFO: Epoch 2/30 mean loss: 0.011421; learning rate: 0.0001
+2026-10-14 09:04:05,172 INFO: Checkpoint 2 saved!
+                                                                      2026-10-14 09:05:35,561 INFO: Validation Dice score: 0.215427964925766
+                                                                      2026-10-14 09:07:05,860 INFO: Validation Dice score: 0.29139041900634766
+                                                                      2026-10-14 09:08:36,611 INFO: Validation Dice score: 0.452203631401062
+                                                                      2026-10-14 09:10:07,134 INFO: Validation Dice score: 0.4763067066669464
+                                                                      2026-10-14 09:11:38,284 INFO: Validation Dice score: 0.35116660594940186
+2026-10-14 09:11:38,289 INFO: Epoch 3/30 mean loss: 0.009395; learning rate: 0.0001
+2026-10-14 09:11:39,398 INFO: Checkpoint 3 saved!
+                                                                      2026-10-14 09:13:10,533 INFO: Validation Dice score: 0.4206198751926422
+                                                                      2026-10-14 09:14:40,691 INFO: Validation Dice score: 0.32972201704978943
+                                                                      2026-10-14 09:16:11,009 INFO: Validation Dice score: 0.35665056109428406
+                                                                      2026-10-14 09:17:41,313 INFO: Validation Dice score: 0.2830401062965393
+                                                                      2026-10-14 09:19:12,382 INFO: Validation Dice score: 0.5113009810447693
+2026-10-14 09:19:12,387 INFO: Epoch 4/30 mean loss: 0.008490; learning rate: 0.0001
+2026-10-14 09:19:13,377 INFO: Checkpoint 4 saved!
+                                                                      2026-10-14 09:20:44,647 INFO: Validation Dice score: 0.3893759846687317
+                                                                      2026-10-14 09:22:15,134 INFO: Validation Dice score: 0.39898523688316345
+                                                                      2026-10-14 09:23:45,369 INFO: Validation Dice score: 0.4848017692565918
+                                                                      2026-10-14 09:25:15,806 INFO: Validation Dice score: 0.4591464400291443
+                                                                      2026-10-14 09:26:46,085 INFO: Validation Dice score: 0.38141322135925293
+2026-10-14 09:26:46,091 INFO: Epoch 5/30 mean loss: 0.007518; learning rate: 0.0001
+2026-10-14 09:26:46,870 INFO: Checkpoint 5 saved!
+                                                                      2026-10-14 09:28:17,666 INFO: Validation Dice score: 0.5973201394081116
+                                                                      2026-10-14 09:29:48,635 INFO: Validation Dice score: 0.5562268495559692
+                                                                      2026-10-14 09:31:19,775 INFO: Validation Dice score: 0.47217199206352234
+                                                                      2026-10-14 09:32:50,429 INFO: Validation Dice score: 0.48776116967201233
+                                                                      2026-10-14 09:34:20,742 INFO: Validation Dice score: 0.4608345031738281
+2026-10-14 09:34:20,747 INFO: Epoch 6/30 mean loss: 0.007114; learning rate: 0.0001
+2026-10-14 09:34:21,752 INFO: Checkpoint 6 saved!
+                                                                      2026-10-14 09:35:52,163 INFO: Validation Dice score: 0.48335233330726624
+                                                                      2026-10-14 09:37:22,421 INFO: Validation Dice score: 0.5468299984931946
+                                                                      2026-10-14 09:38:52,720 INFO: Validation Dice score: 0.42819929122924805
+                                                                      2026-10-14 09:40:22,917 INFO: Validation Dice score: 0.4807316064834595
+                                                                      2026-10-14 09:41:53,204 INFO: Validation Dice score: 0.43401601910591125
+2026-10-14 09:41:53,217 INFO: Epoch 7/30 mean loss: 0.006575; learning rate: 0.0001
+2026-10-14 09:41:54,617 INFO: Checkpoint 7 saved!
+                                                                      2026-10-14 09:43:25,299 INFO: Validation Dice score: 0.5627341866493225
+                                                                      2026-10-14 09:44:56,364 INFO: Validation Dice score: 0.5427612662315369
+                                                                      2026-10-14 09:46:27,259 INFO: Validation Dice score: 0.5151727199554443
+                                                                      2026-10-14 09:47:57,651 INFO: Validation Dice score: 0.4937277138233185
+                                                                      2026-10-14 09:49:27,908 INFO: Validation Dice score: 0.518462598323822
+2026-10-14 09:49:27,912 INFO: Epoch 8/30 mean loss: 0.006278; learning rate: 0.0001
+2026-10-14 09:49:29,608 INFO: Checkpoint 8 saved!
+                                                                      2026-10-14 09:51:00,152 INFO: Validation Dice score: 0.5539889335632324
+                                                                      2026-10-14 09:52:31,131 INFO: Validation Dice score: 0.6097738146781921
+                                                                      2026-10-14 09:54:02,365 INFO: Validation Dice score: 0.5483295917510986
+                                                                      2026-10-14 09:55:33,469 INFO: Validation Dice score: 0.6389560103416443
+                                                                      2026-10-14 09:57:04,279 INFO: Validation Dice score: 0.4632749557495117
+2026-10-14 09:57:04,290 INFO: Epoch 9/30 mean loss: 0.005942; learning rate: 0.0001
+2026-10-14 09:57:05,513 INFO: Checkpoint 9 saved!
+                                                                      2026-10-14 09:58:36,106 INFO: Validation Dice score: 0.6433846354484558
+                                                                      2026-10-14 10:00:06,425 INFO: Validation Dice score: 0.6430490016937256
+                                                                      2026-10-14 10:01:36,689 INFO: Validation Dice score: 0.6797943115234375
+                                                                      2026-10-14 10:03:07,007 INFO: Validation Dice score: 0.5966057777404785
+                                                                      2026-10-14 10:04:37,183 INFO: Validation Dice score: 0.6192211508750916
+2026-10-14 10:04:37,193 INFO: Epoch 10/30 mean loss: 0.005592; learning rate: 0.0001
+2026-10-14 10:04:38,388 INFO: Checkpoint 10 saved!
+                                                                      2026-10-14 10:06:08,916 INFO: Validation Dice score: 0.5428804159164429
+                                                                      2026-10-14 10:07:39,452 INFO: Validation Dice score: 0.6099623441696167
+                                                                      2026-10-14 10:09:09,999 INFO: Validation Dice score: 0.6283078789710999
+                                                                      2026-10-14 10:10:40,378 INFO: Validation Dice score: 0.481155127286911
+                                                                      2026-10-14 10:12:10,719 INFO: Validation Dice score: 0.46988433599472046
+2026-10-14 10:12:10,730 INFO: Epoch 11/30 mean loss: 0.005614; learning rate: 0.0001
+2026-10-14 10:12:12,029 INFO: Checkpoint 11 saved!
+                                                                      2026-10-14 10:13:42,789 INFO: Validation Dice score: 0.5959784984588623
+                                                                      2026-10-14 10:15:13,110 INFO: Validation Dice score: 0.5225290060043335
+                                                                      2026-10-14 10:16:43,997 INFO: Validation Dice score: 0.5939691066741943
+                                                                      2026-10-14 10:18:14,768 INFO: Validation Dice score: 0.5431325435638428
+                                                                      2026-10-14 10:19:45,948 INFO: Validation Dice score: 0.5843017101287842
+2026-10-14 10:19:45,959 INFO: Epoch 12/30 mean loss: 0.005465; learning rate: 0.0001
+2026-10-14 10:19:46,629 INFO: Checkpoint 12 saved!
+                                                                      2026-10-14 10:21:17,689 INFO: Validation Dice score: 0.6156283020973206
+                                                                      2026-10-14 10:22:48,129 INFO: Validation Dice score: 0.6261178851127625
+                                                                      2026-10-14 10:24:18,526 INFO: Validation Dice score: 0.5688236951828003
+                                                                      2026-10-14 10:25:49,007 INFO: Validation Dice score: 0.6180181503295898
+                                                                      2026-10-14 10:27:19,628 INFO: Validation Dice score: 0.5657027959823608
+2026-10-14 10:27:19,632 INFO: Epoch 13/30 mean loss: 0.005130; learning rate: 0.0001
+2026-10-14 10:27:20,564 INFO: Checkpoint 13 saved!
+                                                                      2026-10-14 10:28:53,319 INFO: Validation Dice score: 0.575718343257904
+                                                                      2026-10-14 10:30:23,650 INFO: Validation Dice score: 0.5625070929527283
+                                                                      2026-10-14 10:31:53,902 INFO: Validation Dice score: 0.6028772592544556
+                                                                      2026-10-14 10:33:24,254 INFO: Validation Dice score: 0.6432931423187256
+                                                                      2026-10-14 10:34:54,787 INFO: Validation Dice score: 0.6152030229568481
+2026-10-14 10:34:54,792 INFO: Epoch 14/30 mean loss: 0.004999; learning rate: 0.0001
+2026-10-14 10:34:56,659 INFO: Checkpoint 14 saved!
+                                                                      2026-10-14 10:36:27,065 INFO: Validation Dice score: 0.5922660827636719
+                                                                      2026-10-14 10:37:57,429 INFO: Validation Dice score: 0.6191326379776001
+                                                                      2026-10-14 10:39:27,964 INFO: Validation Dice score: 0.5996249914169312
+                                                                      2026-10-14 10:40:58,529 INFO: Validation Dice score: 0.6447684168815613
+                                                                      2026-10-14 10:42:29,350 INFO: Validation Dice score: 0.6121446490287781
+2026-10-14 10:42:29,356 INFO: Epoch 15/30 mean loss: 0.004897; learning rate: 0.0001
+2026-10-14 10:42:30,997 INFO: Checkpoint 15 saved!
+                                                                      2026-10-14 10:44:02,346 INFO: Validation Dice score: 0.6393741369247437
+                                                                      2026-10-14 10:45:33,994 INFO: Validation Dice score: 0.5022332072257996
+                                                                      2026-10-14 10:47:11,352 INFO: Validation Dice score: 0.6011826395988464
+                                                                      2026-10-14 10:48:41,728 INFO: Validation Dice score: 0.5853973031044006
+                                                                      2026-10-14 10:50:12,287 INFO: Validation Dice score: 0.582255482673645
+2026-10-14 10:50:12,292 INFO: Epoch 16/30 mean loss: 0.004664; learning rate: 1e-05
+2026-10-14 10:50:12,970 INFO: Checkpoint 16 saved!
+                                                                      2026-10-14 10:51:43,941 INFO: Validation Dice score: 0.6064779162406921
+                                                                      2026-10-14 10:53:18,575 INFO: Validation Dice score: 0.6389970779418945
+                                                                      2026-10-14 10:55:22,124 INFO: Validation Dice score: 0.6106005907058716
+                                                                      2026-10-14 10:57:22,422 INFO: Validation Dice score: 0.6473212838172913
+                                                                      2026-10-14 10:59:07,305 INFO: Validation Dice score: 0.6558783054351807
+2026-10-14 10:59:07,314 INFO: Epoch 17/30 mean loss: 0.003787; learning rate: 1e-05
+2026-10-14 10:59:07,996 INFO: Checkpoint 17 saved!
+                                                                      2026-10-14 11:00:43,520 INFO: Validation Dice score: 0.6729632616043091
+                                                                      2026-10-14 11:02:21,505 INFO: Validation Dice score: 0.6401808857917786
+                                                                      2026-10-14 11:03:57,697 INFO: Validation Dice score: 0.6321533918380737
+                                                                      2026-10-14 11:05:36,957 INFO: Validation Dice score: 0.6781883239746094
+                                                                      2026-10-14 11:07:16,061 INFO: Validation Dice score: 0.6292042136192322
+2026-10-14 11:07:16,071 INFO: Epoch 18/30 mean loss: 0.003564; learning rate: 1e-05
+2026-10-14 11:07:17,495 INFO: Checkpoint 18 saved!
+                                                                      2026-10-14 11:08:53,027 INFO: Validation Dice score: 0.6704049706459045
+                                                                      2026-10-14 11:10:26,606 INFO: Validation Dice score: 0.6095534563064575
+                                                                      2026-10-14 11:12:00,242 INFO: Validation Dice score: 0.6715668439865112
+                                                                      2026-10-14 11:13:33,495 INFO: Validation Dice score: 0.5540875792503357
+                                                                      2026-10-14 11:15:07,266 INFO: Validation Dice score: 0.6225919127464294
+2026-10-14 11:15:07,271 INFO: Epoch 19/30 mean loss: 0.003475; learning rate: 1e-05
+2026-10-14 11:15:08,688 INFO: Checkpoint 19 saved!
+                                                                      2026-10-14 11:16:42,368 INFO: Validation Dice score: 0.6869342923164368
+                                                                      2026-10-14 11:18:15,988 INFO: Validation Dice score: 0.6553317308425903
+                                                                      2026-10-14 11:19:49,633 INFO: Validation Dice score: 0.7066925168037415
+                                                                      2026-10-14 11:21:23,369 INFO: Validation Dice score: 0.6406659483909607
+                                                                      2026-10-14 11:22:56,993 INFO: Validation Dice score: 0.6029819250106812
+2026-10-14 11:22:56,999 INFO: Epoch 20/30 mean loss: 0.003414; learning rate: 1e-05
+2026-10-14 11:22:58,193 INFO: Checkpoint 20 saved!
+                                                                      2026-10-14 11:24:31,800 INFO: Validation Dice score: 0.6479977965354919
+                                                                      2026-10-14 11:26:05,691 INFO: Validation Dice score: 0.5772186517715454
+                                                                      2026-10-14 11:27:39,455 INFO: Validation Dice score: 0.6077320575714111
+                                                                      2026-10-14 11:29:13,080 INFO: Validation Dice score: 0.5941649079322815
+                                                                      2026-10-14 11:30:48,938 INFO: Validation Dice score: 0.629754900932312
+2026-10-14 11:30:48,948 INFO: Epoch 21/30 mean loss: 0.003330; learning rate: 1e-05
+2026-10-14 11:30:49,776 INFO: Checkpoint 21 saved!
+                                                                      2026-10-14 11:32:25,562 INFO: Validation Dice score: 0.6651901602745056
+                                                                      2026-10-14 11:34:04,892 INFO: Validation Dice score: 0.6838547587394714
+                                                                      2026-10-14 11:35:46,250 INFO: Validation Dice score: 0.5565913915634155
+                                                                      2026-10-14 11:37:29,326 INFO: Validation Dice score: 0.7106615900993347
+                                                                      2026-10-14 11:39:10,123 INFO: Validation Dice score: 0.6181100606918335
+2026-10-14 11:39:10,128 INFO: Epoch 22/30 mean loss: 0.003284; learning rate: 1e-05
+2026-10-14 11:39:11,407 INFO: Checkpoint 22 saved!
+                                                                      2026-10-14 11:40:48,475 INFO: Validation Dice score: 0.7110337018966675
+                                                                      2026-10-14 11:42:39,572 INFO: Validation Dice score: 0.6430929899215698
+                                                                      2026-10-14 11:44:25,312 INFO: Validation Dice score: 0.697966456413269
+                                                                      2026-10-14 11:46:02,020 INFO: Validation Dice score: 0.6793705821037292
+                                                                      2026-10-14 11:48:07,118 INFO: Validation Dice score: 0.6934980750083923
+2026-10-14 11:48:07,125 INFO: Epoch 23/30 mean loss: 0.003206; learning rate: 1e-05
+2026-10-14 11:48:08,746 INFO: Checkpoint 23 saved!
+                                                                      2026-10-14 11:50:30,428 INFO: Validation Dice score: 0.6461501121520996
+                                                                      2026-10-14 11:52:52,250 INFO: Validation Dice score: 0.6337373852729797
+                                                                      2026-10-14 11:55:09,807 INFO: Validation Dice score: 0.5617361068725586
+                                                                      2026-10-14 11:57:32,284 INFO: Validation Dice score: 0.7216483950614929
+                                                                      2026-10-14 11:59:54,253 INFO: Validation Dice score: 0.5504728555679321
+2026-10-14 11:59:54,264 INFO: Epoch 24/30 mean loss: 0.003126; learning rate: 1e-05
+2026-10-14 11:59:55,402 INFO: Checkpoint 24 saved!
+                                                                      2026-10-14 12:02:17,600 INFO: Validation Dice score: 0.6228453516960144
+                                                                      2026-10-14 12:04:32,770 INFO: Validation Dice score: 0.6819382905960083
+                                                                      2026-10-14 12:07:09,341 INFO: Validation Dice score: 0.6876943707466125
+                                                                      2026-10-14 12:09:36,560 INFO: Validation Dice score: 0.621671736240387
+                                                                      2026-10-14 12:11:48,314 INFO: Validation Dice score: 0.6063869595527649
+2026-10-14 12:11:48,320 INFO: Epoch 25/30 mean loss: 0.003076; learning rate: 1e-05
+2026-10-14 12:11:49,005 INFO: Checkpoint 25 saved!
+                                                                      2026-10-14 12:13:32,905 INFO: Validation Dice score: 0.6483772993087769
+                                                                      2026-10-14 12:15:21,972 INFO: Validation Dice score: 0.5887371897697449
+                                                                      2026-10-14 12:17:00,773 INFO: Validation Dice score: 0.609633207321167
+                                                                      2026-10-14 12:18:35,655 INFO: Validation Dice score: 0.6386369466781616
+                                                                      2026-10-14 12:20:10,594 INFO: Validation Dice score: 0.6353682279586792
+2026-10-14 12:20:10,599 INFO: Epoch 26/30 mean loss: 0.003004; learning rate: 1e-05
+2026-10-14 12:20:11,281 INFO: Checkpoint 26 saved!
+                                                                      2026-10-14 12:21:46,172 INFO: Validation Dice score: 0.5893354415893555
+                                                                      2026-10-14 12:23:20,747 INFO: Validation Dice score: 0.6777330636978149
+                                                                      2026-10-14 12:24:55,627 INFO: Validation Dice score: 0.6707357168197632
+                                                                      2026-10-14 12:26:30,410 INFO: Validation Dice score: 0.5679812431335449
+                                                                      2026-10-14 12:28:05,046 INFO: Validation Dice score: 0.678564727306366
+2026-10-14 12:28:05,052 INFO: Epoch 27/30 mean loss: 0.002956; learning rate: 1e-05
+2026-10-14 12:28:05,734 INFO: Checkpoint 27 saved!
+                                                                      2026-10-14 12:29:40,875 INFO: Validation Dice score: 0.5519567131996155
+                                                                      2026-10-14 12:31:16,038 INFO: Validation Dice score: 0.6277428865432739
+                                                                      2026-10-14 12:32:50,808 INFO: Validation Dice score: 0.6493570804595947
+                                                                      2026-10-14 12:34:26,353 INFO: Validation Dice score: 0.6625794172286987
+                                                                      2026-10-14 12:36:26,289 INFO: Validation Dice score: 0.6313912272453308
+2026-10-14 12:36:26,297 INFO: Epoch 28/30 mean loss: 0.002863; learning rate: 1e-05
+2026-10-14 12:36:27,488 INFO: Checkpoint 28 saved!
+                                                                      2026-10-14 12:38:49,502 INFO: Validation Dice score: 0.5746012926101685
+                                                                      2026-10-14 12:41:12,019 INFO: Validation Dice score: 0.664646565914154
+                                                                      2026-10-14 12:43:31,754 INFO: Validation Dice score: 0.6674578785896301
+                                                                      2026-10-14 12:45:54,267 INFO: Validation Dice score: 0.6384338736534119
+                                                                      2026-10-14 12:48:16,451 INFO: Validation Dice score: 0.6723431348800659
+2026-10-14 12:48:16,465 INFO: Epoch 29/30 mean loss: 0.002807; learning rate: 1e-06
+2026-10-14 12:48:17,806 INFO: Checkpoint 29 saved!
+                                                                      2026-10-14 12:50:39,884 INFO: Validation Dice score: 0.5402342677116394
+                                                                      2026-10-14 12:52:59,174 INFO: Validation Dice score: 0.6871956586837769
+                                                                      2026-10-14 12:55:20,868 INFO: Validation Dice score: 0.6604552865028381
+                                                                      2026-10-14 12:57:42,699 INFO: Validation Dice score: 0.6186010837554932
+                                                                      2026-10-14 13:00:02,209 INFO: Validation Dice score: 0.6783230304718018
+2026-10-14 13:00:02,221 INFO: Epoch 30/30 mean loss: 0.002572; learning rate: 1e-06
+2026-10-14 13:00:03,454 INFO: Checkpoint 30 saved!

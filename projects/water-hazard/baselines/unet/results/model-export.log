@@ -1,0 +1,4 @@
+﻿Waiting for 30-epoch training completion; current verified model remains available.
+PASS: epoch 30, 118 finite tensors, real-image inference finite
+EXPORTED: C:\program1\Pytorch-UNet-master\Pytorch-UNet-master\MODEL_VALID.pth
+Completed: MODEL_VALID.pth now contains the verified epoch-30 model.

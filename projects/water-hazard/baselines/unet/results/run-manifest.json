@@ -1,0 +1,17 @@
+{
+  "experiment": "HD10K liquid U-Net baseline, existing run",
+  "completed_epochs": 30,
+  "completed_at": "2026-10-14 13:00:03 Asia/Shanghai",
+  "final_logged_validation_dice": 0.6783230304718018,
+  "final_mean_training_loss": 0.002572,
+  "model": {
+    "local_path": "C:\\program1\\Pytorch-UNet-master\\Pytorch-UNet-master\\MODEL_VALID.pth",
+    "size_bytes": 124242215,
+    "sha256": "a0ae3fed171c7adad1339e45fdc99eb5ea04320835a59c889e512872370b9969",
+    "uploaded": false
+  },
+  "checkpoint_directory": "C:\\program1\\Pytorch-UNet-master\\Pytorch-UNet-master\\checkpoints_hd10k_fixed_20261014",
+  "validation": "random frame split; not independent test performance",
+  "epoch15_detailed_metrics": "epoch15-validation.json",
+  "epoch30_detailed_metrics": null
+}
